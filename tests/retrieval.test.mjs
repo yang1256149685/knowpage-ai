@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {retrieve,excerptAnswer,splitText} from '../web/js/retrieval.js';
+const docs=JSON.parse(await readFile(new URL('../web/sample-documents.json',import.meta.url)));
+const hits=retrieve('差旅报销需要在几天内提交',docs);
+assert.equal(hits[0].title,'费用报销规范');
+assert.ok(excerptAnswer(hits).includes('十五'));
+assert.deepEqual(retrieve('银河舰队量子预算',docs),[]);
+assert.deepEqual(retrieve('',docs),[]);
+assert.deepEqual(retrieve('报销',[]),[]);
+assert.ok(splitText('a'.repeat(1000)).length===2);
+assert.ok(excerptAnswer([]).includes('没有找到足够依据'));
+console.log('7 retrieval assertions passed');

@@ -1,0 +1,1 @@
+{"name":"knowpage-original","private":true,"version":"1.0.0","type":"module","scripts":{"test":"node tests/retrieval.test.mjs","preview":"python3 -m http.server 8001 --directory web --bind 127.0.0.1"}}
