@@ -1,0 +1,205 @@
+[
+  {
+    "file": "docs/screenshots/01-overview.png",
+    "scenario": "工作台、文档统计和知识入口",
+    "mode": "browser local retrieval",
+    "steps": [
+      "打开静态体验",
+      "载入原创样例",
+      "从持久化读取已有问答记录"
+    ],
+    "captured_at": "2026-10-20T13:32:31.922Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "62e923a464b9567aab747061122b5f3033b509c8",
+    "sha256": "6d0b9325474cfd30c2a3b495f878f60eb2c8dcccd482932c45eb54f6c8a9d9c5",
+    "image_size": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/02-documents.png",
+    "scenario": "文档列表与分类",
+    "mode": "browser local retrieval",
+    "steps": [
+      "打开文档中心",
+      "展示原创文档与真实文本块数量"
+    ],
+    "captured_at": "2026-10-20T13:32:40.742Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "62e923a464b9567aab747061122b5f3033b509c8",
+    "sha256": "aeab354e6d162c8033968a6aaea70fd0931012ac88bd92fcaadef48431083209",
+    "image_size": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/03-answer.png",
+    "scenario": "真实检索报销规范并显示原文引用",
+    "mode": "browser local retrieval",
+    "steps": [
+      "点击差旅报销时限",
+      "检索当前语料",
+      "核对十五个自然日及来源"
+    ],
+    "captured_at": "2026-10-20T13:32:55.973Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "62e923a464b9567aab747061122b5f3033b509c8",
+    "sha256": "36c5adf145f285c0daa7d8393f6ed4477bd76e670048f54995cd4f6b33f5f1b9",
+    "image_size": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/04-source.png",
+    "scenario": "点击引用查看真实原文",
+    "mode": "browser local retrieval",
+    "steps": [
+      "从回答点击查看原文",
+      "核查文档标题、制度和虚构数据声明"
+    ],
+    "captured_at": "2026-10-20T13:33:07.888Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "62e923a464b9567aab747061122b5f3033b509c8",
+    "sha256": "fae65be36421a5ca52ddc1dd3be5c04bbe4cade49f793557bbb9d95f5e0e6f05",
+    "image_size": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/05-no-evidence.png",
+    "scenario": "无关问题明确拒答",
+    "mode": "browser local retrieval",
+    "steps": [
+      "输入样例中不存在的问题",
+      "验证零引用和无依据提示"
+    ],
+    "captured_at": "2026-10-20T13:33:19.581Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "62e923a464b9567aab747061122b5f3033b509c8",
+    "sha256": "82fa78a594ff86e3973a9da32e59672ef58d7cfc045159f2697eafc7dde095f0",
+    "image_size": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/06-history.png",
+    "scenario": "问答历史真实保存与模式记录",
+    "mode": "browser local retrieval",
+    "steps": [
+      "打开问答记录",
+      "核对问题、引用数和模式"
+    ],
+    "captured_at": "2026-10-20T13:33:49.242Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "62e923a464b9567aab747061122b5f3033b509c8",
+    "sha256": "f687171d209c4139988952caaba6924836a5e61e048dfe7ee3121f5c057f9a4f",
+    "image_size": {
+      "width": 65536,
+      "height": 4293001752
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/07-server-login.png",
+    "scenario": "完整本机服务的真实会话登录入口",
+    "mode": "FastAPI local server retrieval",
+    "steps": [
+      "启动隔离的本机服务",
+      "打开登录表单",
+      "无预置公开管理员密码"
+    ],
+    "captured_at": "2026-10-21T02:33:31.629Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "62e923a464b9567aab747061122b5f3033b509c8",
+    "sha256": "ceb62a3f13f7fca94ea8b302820a304fad17d651d561d985b098fafd08d05498",
+    "image_size": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/08-server-uploaded.png",
+    "scenario": "真实服务端上传后就绪的 PDF 与 Markdown",
+    "mode": "FastAPI local server retrieval",
+    "steps": [
+      "通过本机已实现 API 管理员鉴权上传两份原创资料",
+      "浏览器登录管理员",
+      "查看新增文档及文本块"
+    ],
+    "captured_at": "2026-10-21T02:33:39.473Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "62e923a464b9567aab747061122b5f3033b509c8",
+    "sha256": "0051d64ffa5e21dbccfe57c01f4e22f13c5108fc04d135e89a439eebd69893fb",
+    "image_size": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/09-server-query.png",
+    "scenario": "新上传文档改变了实际检索结果",
+    "mode": "FastAPI local server retrieval",
+    "steps": [
+      "上传包含青色纸飞机的原创验证文档",
+      "在浏览器提问验收口令",
+      "答案引用新文档正文"
+    ],
+    "captured_at": "2026-10-21T02:34:23.231Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "62e923a464b9567aab747061122b5f3033b509c8",
+    "sha256": "8efd8388225eba61c2f575910b18cf8da6b10fa99261e875d3ea8e665daa657b",
+    "image_size": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  }
+]
