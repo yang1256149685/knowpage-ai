@@ -1,0 +1,5 @@
+{
+  "project": "knowpage-ai",
+  "source_commit": "bd73512e48f6069d8fa338b0f20679fab3533428",
+  "mode": "browser local retrieval; no LLM call"
+}
