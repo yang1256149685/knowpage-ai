@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/yang1256149685/knowpage-ai",
+  "demo": "https://yang1256149685.github.io/knowpage-ai/",
+  "verified_at": "2026-10-21T10:43:57.057291+08:00",
+  "deployment_mode": "browser local retrieval; no LLM call",
+  "deployed_build_source_commit": "bd73512e48f6069d8fa338b0f20679fab3533428",
+  "ci_code_verification": "https://github.com/yang1256149685/knowpage-ai/actions/runs/39534219460",
+  "ci_code_verification_result": "success",
+  "screenshots": 10,
+  "note": "Subsequent commits add documentation/evaluation evidence; deployed application source remains the same.",
+  "live_model": "Not enabled, per user instruction; no LLM call",
+  "full_backend_public": "Not deployed; no authorized server/domain",
+  "full_backend_local": "Verified API authentication, uploads, PDF parsing and content-dependent query"
+}

@@ -1,0 +1,99 @@
+{
+  "kind": "lexical retrieval examples; not a general accuracy claim",
+  "passed": 12,
+  "total": 12,
+  "cases": [
+    {
+      "question": "入职第一天需要做什么",
+      "expected_source": "入职与协作指引",
+      "actual_sources": [
+        "入职与协作指引"
+      ],
+      "passed": true
+    },
+    {
+      "question": "差旅报销需要在几天内提交",
+      "expected_source": "费用报销规范",
+      "actual_sources": [
+        "费用报销规范"
+      ],
+      "passed": true
+    },
+    {
+      "question": "住宿费用每晚的上限",
+      "expected_source": "费用报销规范",
+      "actual_sources": [
+        "费用报销规范"
+      ],
+      "passed": true
+    },
+    {
+      "question": "计划休假应提前几天申请",
+      "expected_source": "休假与调休规则",
+      "actual_sources": [
+        "休假与调休规则"
+      ],
+      "passed": true
+    },
+    {
+      "question": "调休应在多久内使用",
+      "expected_source": "休假与调休规则",
+      "actual_sources": [
+        "休假与调休规则"
+      ],
+      "passed": true
+    },
+    {
+      "question": "代码合并之前要审查什么",
+      "expected_source": "代码审查约定",
+      "actual_sources": [
+        "代码审查约定"
+      ],
+      "passed": true
+    },
+    {
+      "question": "上线发布失败如何回滚",
+      "expected_source": "版本发布流程",
+      "actual_sources": [
+        "版本发布流程"
+      ],
+      "passed": true
+    },
+    {
+      "question": "模型服务接收什么资料",
+      "expected_source": "信息安全守则",
+      "actual_sources": [
+        "信息安全守则"
+      ],
+      "passed": true
+    },
+    {
+      "question": "异步沟通应包含什么",
+      "expected_source": "远程沟通指南",
+      "actual_sources": [
+        "远程沟通指南"
+      ],
+      "passed": true
+    },
+    {
+      "question": "项目交付至少包含哪些材料",
+      "expected_source": "项目交付清单",
+      "actual_sources": [
+        "项目交付清单"
+      ],
+      "passed": true
+    },
+    {
+      "question": "银河舰队燃料量子预算是多少",
+      "expected_source": null,
+      "actual_sources": [],
+      "passed": true
+    },
+    {
+      "question": "酒店一晚预算",
+      "expected_source": null,
+      "actual_sources": [],
+      "passed": true
+    }
+  ]
+}

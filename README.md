@@ -6,7 +6,7 @@
 
 ## 在线与截图
 
-仓库与演示地址将在实际发布后补入交付报告。所有预置制度均为原创虚构数据；请勿上传真实企业资料。
+源码：[GitHub 仓库](https://github.com/yang1256149685/knowpage-ai) · 在线体验：[打开演示](https://yang1256149685.github.io/knowpage-ai/)（公开静态版）。所有预置制度均为原创虚构数据；请勿上传真实企业资料。
 
 ![工作台](docs/screenshots/01-overview.png)
 ![问答与引用](docs/screenshots/03-answer.png)

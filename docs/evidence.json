@@ -201,5 +201,29 @@
       "height": 682
     },
     "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
+  },
+  {
+    "file": "docs/screenshots/10-reader.png",
+    "scenario": "阅读者可读文档但不能导入或删除",
+    "mode": "FastAPI local server retrieval",
+    "steps": [
+      "登录真实 reader 账号",
+      "打开文档中心",
+      "核对导入按钮禁用且无删除操作",
+      "服务端403另由API测试验证"
+    ],
+    "captured_at": "2026-10-21T02:40:48.840Z",
+    "runtime": "Chrome on macOS, actual browser execution",
+    "source_commit": "62e923a464b9567aab747061122b5f3033b509c8",
+    "sha256": "878434f22428c274e072608a922c4ebd85e0d8e5bdfd28f935ed9a07c76af0e5",
+    "image_size": {
+      "width": 65536,
+      "height": 4292542531
+    },
+    "viewport": {
+      "width": 1274,
+      "height": 682
+    },
+    "note": "未编辑的实际浏览器截图；source_commit 指运行代码提交，后续材料提交另计。"
   }
 ]
